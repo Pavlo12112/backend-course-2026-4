@@ -7,7 +7,7 @@ const program = new Command();
 
 program
   .requiredOption('-i, --input <path>', 'Input file')
-  .requiredOption('-h, --host <host>', 'Host')
+  .requiredOption('-H, --host <host>', 'Host')
   .requiredOption('-p, --port <port>', 'Port');
 
 program.parse(process.argv);
